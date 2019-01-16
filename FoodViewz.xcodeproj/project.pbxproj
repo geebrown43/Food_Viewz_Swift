@@ -8,22 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		9860BA2E21EE9540008E57E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9860BA2D21EE9540008E57E5 /* AppDelegate.swift */; };
-		9860BA3021EE9540008E57E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9860BA2F21EE9540008E57E5 /* ViewController.swift */; };
+		9860BA3021EE9540008E57E5 /* Onboarding1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9860BA2F21EE9540008E57E5 /* Onboarding1.swift */; };
 		9860BA3321EE9540008E57E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9860BA3121EE9540008E57E5 /* Main.storyboard */; };
 		9860BA3621EE9540008E57E5 /* FoodViewz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9860BA3421EE9540008E57E5 /* FoodViewz.xcdatamodeld */; };
 		9860BA3821EE9541008E57E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9860BA3721EE9541008E57E5 /* Assets.xcassets */; };
 		9860BA3B21EE9541008E57E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9860BA3921EE9541008E57E5 /* LaunchScreen.storyboard */; };
+		9860BA4521EEA411008E57E5 /* CAGradientLayer+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9860BA4421EEA411008E57E5 /* CAGradientLayer+Convenience.swift */; };
+		9860BA4A21EEA75B008E57E5 /* Onboarding2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9860BA4921EEA75B008E57E5 /* Onboarding2.swift */; };
+		9860BA4E21EEB988008E57E5 /* Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9860BA4D21EEB988008E57E5 /* Segue.swift */; };
+		9860BA5021EEC41B008E57E5 /* Onboarding3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9860BA4F21EEC41B008E57E5 /* Onboarding3.swift */; };
+		98E8626A21EFB7BA00D0E31D /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E8626921EFB7BA00D0E31D /* LoginScreen.swift */; };
+		98E8626C21EFCCAB00D0E31D /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E8626B21EFCCAB00D0E31D /* SignUpScreen.swift */; };
+		98E8626E21EFD0BA00D0E31D /* Body.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98E8626D21EFD0BA00D0E31D /* Body.storyboard */; };
+		98E8627021EFD8A900D0E31D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98E8626F21EFD8A900D0E31D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9860BA2A21EE9540008E57E5 /* FoodViewz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodViewz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9860BA2D21EE9540008E57E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9860BA2F21EE9540008E57E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9860BA2F21EE9540008E57E5 /* Onboarding1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding1.swift; sourceTree = "<group>"; };
 		9860BA3221EE9540008E57E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9860BA3521EE9540008E57E5 /* FoodViewz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodViewz.xcdatamodel; sourceTree = "<group>"; };
 		9860BA3721EE9541008E57E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9860BA3A21EE9541008E57E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9860BA3C21EE9541008E57E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9860BA4421EEA411008E57E5 /* CAGradientLayer+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+Convenience.swift"; sourceTree = "<group>"; };
+		9860BA4921EEA75B008E57E5 /* Onboarding2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding2.swift; sourceTree = "<group>"; };
+		9860BA4D21EEB988008E57E5 /* Segue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segue.swift; sourceTree = "<group>"; };
+		9860BA4F21EEC41B008E57E5 /* Onboarding3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding3.swift; sourceTree = "<group>"; };
+		98E8626921EFB7BA00D0E31D /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		98E8626B21EFCCAB00D0E31D /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
+		98E8626D21EFD0BA00D0E31D /* Body.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Body.storyboard; sourceTree = "<group>"; };
+		98E8626F21EFD8A900D0E31D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,47 @@
 		9860BA2C21EE9540008E57E5 /* FoodViewz */ = {
 			isa = PBXGroup;
 			children = (
+				9860BA4821EEA704008E57E5 /* Controller */,
+				9860BA4721EEA6FB008E57E5 /* View */,
+				9860BA4621EEA6F2008E57E5 /* Model */,
 				9860BA2D21EE9540008E57E5 /* AppDelegate.swift */,
-				9860BA2F21EE9540008E57E5 /* ViewController.swift */,
-				9860BA3121EE9540008E57E5 /* Main.storyboard */,
 				9860BA3721EE9541008E57E5 /* Assets.xcassets */,
 				9860BA3921EE9541008E57E5 /* LaunchScreen.storyboard */,
 				9860BA3C21EE9541008E57E5 /* Info.plist */,
+				98E8626F21EFD8A900D0E31D /* GoogleService-Info.plist */,
 				9860BA3421EE9540008E57E5 /* FoodViewz.xcdatamodeld */,
 			);
 			path = FoodViewz;
+			sourceTree = "<group>";
+		};
+		9860BA4621EEA6F2008E57E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9860BA4421EEA411008E57E5 /* CAGradientLayer+Convenience.swift */,
+				9860BA4D21EEB988008E57E5 /* Segue.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9860BA4721EEA6FB008E57E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9860BA3121EE9540008E57E5 /* Main.storyboard */,
+				98E8626D21EFD0BA00D0E31D /* Body.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9860BA4821EEA704008E57E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9860BA2F21EE9540008E57E5 /* Onboarding1.swift */,
+				9860BA4921EEA75B008E57E5 /* Onboarding2.swift */,
+				9860BA4F21EEC41B008E57E5 /* Onboarding3.swift */,
+				98E8626921EFB7BA00D0E31D /* LoginScreen.swift */,
+				98E8626B21EFCCAB00D0E31D /* SignUpScreen.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +173,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98E8626E21EFD0BA00D0E31D /* Body.storyboard in Resources */,
 				9860BA3B21EE9541008E57E5 /* LaunchScreen.storyboard in Resources */,
+				98E8627021EFD8A900D0E31D /* GoogleService-Info.plist in Resources */,
 				9860BA3821EE9541008E57E5 /* Assets.xcassets in Resources */,
 				9860BA3321EE9540008E57E5 /* Main.storyboard in Resources */,
 			);
@@ -138,7 +188,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9860BA3021EE9540008E57E5 /* ViewController.swift in Sources */,
+				9860BA4E21EEB988008E57E5 /* Segue.swift in Sources */,
+				9860BA3021EE9540008E57E5 /* Onboarding1.swift in Sources */,
+				98E8626C21EFCCAB00D0E31D /* SignUpScreen.swift in Sources */,
+				9860BA4521EEA411008E57E5 /* CAGradientLayer+Convenience.swift in Sources */,
+				9860BA4A21EEA75B008E57E5 /* Onboarding2.swift in Sources */,
+				9860BA5021EEC41B008E57E5 /* Onboarding3.swift in Sources */,
+				98E8626A21EFB7BA00D0E31D /* LoginScreen.swift in Sources */,
 				9860BA2E21EE9540008E57E5 /* AppDelegate.swift in Sources */,
 				9860BA3621EE9540008E57E5 /* FoodViewz.xcdatamodeld in Sources */,
 			);
